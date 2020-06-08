@@ -1,4 +1,5 @@
-interface InfoPagina {
+
+export interface InfoPagina {
   titulo?: string;
   email?: string;
   nombre_corto?: string;
@@ -6,6 +7,6 @@ interface InfoPagina {
   facebook?: string;
   twitter?: string;
   instagram?: string;
-  tumblr?: string;
+  tublr?: string;
   equipo_trabajo?: any[];
 }
